@@ -5,6 +5,9 @@
     align-items: center;
     row-gap: 22px;
     color: var(--branco--normal);
+    background-image: url(../assets/gotas.svg);
+    background-repeat: repeat-x;
+    background-position-x: 100vw;
 }
 
 .foto__noticia{

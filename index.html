@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/pesquisar.css">
     <link rel="stylesheet" href="css/noticiais.css">
+    <link rel="stylesheet" href="css/menu-lateral-mobile.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -22,12 +23,31 @@
                 <img src="assets/menuIcon.svg" alt="icone do menu " class="menu item__cabecalho">
             </div>
             <div class="logo">
-                <img src="assets/LogoIcon.svg" alt="logo do menu" class="logo item__cabecalho">
+                <a href="index.html"><img src="assets/LogoIcon.svg" alt="logo do menu" class="logo item__cabecalho"></a>
             </div>
             <div class="perfil">
                 <img src="assets/Perfil.svg" alt="perfil do menu" class="perfil item__cabecalho">
             </div>
         </header>
+        <div class="menu-lateral-mobile menu--escondido">
+            <div class="logo__excluir">
+                <img src="assets/LogoIcon.svg" alt="" class="logo__menu">
+                <p class="excluir">X</p>
+            </div>
+            <div class="opcao">
+                <img src="assets/iconHome.svg" alt="icone home do menu lateral" class="icon__opcao">
+                <h2 class="titulo__opcao">Home</h2>
+            </div>
+            <div class="opcao">
+                <img src="assets/iconPerfil.svg" alt="icone Perfil do menu lateral" class="icon__opcao">
+                <h2 class="titulo__opcao">Meu perfil</h2>
+            </div>
+            <div class="opcao">
+                <img src="assets/iconRanking.svg" alt="icone Ranking do menu lateral" class="icon__opcao">
+                <h2 class="titulo__opcao">Ranking</h2>
+            </div>
+
+        </div>
         <div class="pesquisar">
             <img src="assets/pesquisarIcon.svg" alt="Icone de pesquisa " class="pesquisar__lupa">
             <input type="text" name="filtro" id="filtrar-tabela" class="pesquisar__campo"
@@ -51,6 +71,7 @@
         </main>
     </div>
     <script src="js/pesquisar.js"></script>
+    <script src="js/menu--lateral.js"></script>
 </body>
 
 </html>

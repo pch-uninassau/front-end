@@ -12,6 +12,7 @@
 | **21/09/2022** | **Foi criado o README.md** | **Henry** |
 | **25/09/2022** | **Fim do html e css da primeira página** | **Gustavo** |
 | **26/09/2022** | **Aba de pesquisa funcionando** | **Gustavo** |
+| **26/09/2022** | **Menu-Lateral Funcionando** | **Gustavo** |
 
 ## 🛑 • Avisos
 

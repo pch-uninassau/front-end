@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+body{
+    background-color: var(--azul-escuro);
+}

@@ -10,7 +10,7 @@
 | **Data** | **Modificações** | **Author** |
 | --- | --- | --- | 
 | **21/09/2022** | **Foi criado o README.md** | **Henry** |
-| **Exemplo 2** | **Exemplo 2** | **Exemplo 2** |
+| **25/09/2022** | **Fim do html e css da primeira página** | **Gustavo** |
 
 ## 🛑 • Avisos
 

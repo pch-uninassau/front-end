@@ -20,7 +20,13 @@
     flex-direction: column;
     row-gap: 5px;
     font-weight: bold;
+    text-decoration:none;
+    color: var(--branco--normal);
 }
 .invisivel{
     display: none;
+}
+.primeira__noticia:hover,.segunda__noticia:hover,.terceira__noticia:hover{
+    color: var(--azul-claro);
+    transition: 0.5s;
 }

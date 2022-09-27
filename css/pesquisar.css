@@ -27,6 +27,8 @@
     color: rgba(255, 255, 255, 0.6);
     font-weight: bold;
 }
-.pesquisar__campo:target{
-    border-color: none;
+.pesquisar__campo:focus{
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }

@@ -13,6 +13,8 @@
 | **25/09/2022** | **Fim do html e css da primeira página** | **Gustavo** |
 | **26/09/2022** | **Aba de pesquisa funcionando** | **Gustavo** |
 | **26/09/2022** | **Menu-Lateral Funcionando** | **Gustavo** |
+| **26/09/2022** | **trocando background noticias e trocando as cores do menu lateral mobile** | **Gustavo** |
+| **26/09/2022** | **adicionando hover nas noticias e tirando borda no evento focus do campo de pesquisa** | **Gustavo** |
 
 ## 🛑 • Avisos
 

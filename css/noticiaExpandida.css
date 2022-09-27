@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    flex-direction: column;
+    color: var(--branco--normal);
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.titulo__noticia{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.paragrafo__noticia{
+    padding: 0 0.5rem;
+  font-size: 1.4rem;
+  text-align: justify;
+}
+@media screen and (min-width:786px) {
+    main{
+        row-gap: 20px;
+    }
+    .NoticiaImagem{
+        width: 700px;
+    }
+    .paragrafo__noticia{
+        padding: 0 4rem;
+        font-size: 2rem;
+    }
+}

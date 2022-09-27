@@ -4,6 +4,7 @@
     background-color: rgba(0, 180, 203, 0.5);
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 30px;
     width: 300px;
     border-radius: 9px;
@@ -31,4 +32,22 @@
     border: none;
     box-shadow: 0 0 0 0;
     outline: 0;
+}
+@media screen and (min-width:786px) {
+    .pesquisar__campo::placeholder{
+       font-size: 1.5rem;
+    }
+    .pesquisar{
+        width: 400px;
+        height: 40px;
+        
+    }
+    .pesquisar__campo{
+    width:400px;
+    height: 40px;
+    font-size: 1.5rem;
+    }
+    .pesquisar__lupa{
+        width:32px;
+    }
 }

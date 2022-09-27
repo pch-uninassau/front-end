@@ -21,3 +21,14 @@
 .perfil{
     width:41px;
 }
+@media screen and (min-width:786px) {
+    .logo{
+        width: 50px;
+    }
+    .perfil{
+        width: 64px;
+    }
+    .menu{
+        width: 64px;
+    }
+}

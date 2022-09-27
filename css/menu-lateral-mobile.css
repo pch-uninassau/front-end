@@ -46,3 +46,19 @@
 .opcao:last-child{
     padding-bottom: 10px;
 }
+@media screen and (min-width:786px){
+    .opcao{
+        font-size: 1.4rem;
+        display: flex;
+        width: 194.3px;
+    }
+    .icon__opcao{
+        width: 40px;
+    }
+    .excluir{
+        font-size: 2rem;
+    }
+    .logo__menu {
+        width: 2.3rem;
+    }
+}

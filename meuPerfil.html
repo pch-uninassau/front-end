@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/LogoIcon.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/cabecalho.css">
-    <link rel="stylesheet" href="css/pesquisar.css">
-    <link rel="stylesheet" href="css/noticiais.css">
     <link rel="stylesheet" href="css/menu-lateral-mobile.css">
-    <link rel="shortcut icon" href="assets/LogoIcon.svg" type="image/x-icon">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
-    <title>Economiza Pra Todos</title>
+    <link rel="stylesheet" href="css/informacoes.css">
+    <title>Informações do perfil</title>
 </head>
-
 <body>
     <div class="container">
-        
         <header class="cabecalho">
             <div class="menu ">
                 <img src="assets/menuIcon.svg" alt="icone do menu " class="menu item__cabecalho">
@@ -61,48 +53,25 @@
                 </a>
             </div>
         </div>
-
-        <div class="pesquisar">
-            <img src="assets/pesquisarIcon.svg" alt="Icone de pesquisa " class="pesquisar__lupa">
-            <input type="text" name="filtro" id="filtrar-tabela" class="pesquisar__campo"
-                placeholder="Procure uma noticia">
-        </div>
-
-        <main>
-            <div class="noticias">
-                <div class="primeira__noticia">
-                    <a href="noticia.html" class="primeira__noticia">
-                        <img src="assets/fotoNoticia.svg" alt="Foto da noticia 1" class="foto__noticia">
-                        <p class="titulo__noticia">Título 1</p>
-                    </a>
-                </div>
-                
-                <div class="segunda__noticia">
-                    <a href="noticia.html" class="segunda__noticia">
-                        <img src="assets/fotoNoticia.svg" alt="Foto da noticia 2" class="foto__noticia">
-                        <p class="titulo__noticia">Título 2</p>
-                    </a>
-                </div>
-
-                <div class="terceira__noticia">
-                    <a href="noticia.html" class="terceira__noticia">
-                        <img src="assets/fotoNoticia.svg" alt="Foto da noticia 3" class="foto__noticia">
-                        <p class="titulo__noticia">Título 3</p>
-                    </a>
-                </div>
-
-                <div class="quarta__noticia">
-                    <a href="noticia.html" class="quarta__noticia">
-                        <img src="assets/fotoNoticia.svg" alt="Foto da noticia 3" class="foto__noticia">
-                        <p class="titulo__noticia">Título 4</p>
-                    </a>
-                </div>
+        <main class="informacoes">
+            <div class="foto__formulario">
+                <img src="assets/Perfil.svg" alt="Imagem do perfil" class="imagemPerfil">
+                <form action="" class="formulario">
+                    <label for="Nome">Nome completo</label>
+                    <input type="text" name="Nome" id="Nome" value="Ariana Grande" class="formulario_input">
+                    <label for="Endereco">Endereço</label>
+                    <input type="text" name="Endereco" id="endereco" value="Rua das palmeiras 56" class="formulario_input">
+                    <label for="Cep">Cep</label>
+                    <input type="text" name="Cep" id="Cep" value="12345-678" class="formulario_input">
+                    <label for="Idade">Idade do responsável</label>
+                    <input type="text" name="Idade" id="Idade" value="20" class="formulario_input">
+                    <label for="Hidrometro">Valor do hidrômetro</label>
+                    <input type="text" name="Hidrometro" id="Hidrometro" value="55623" class="formulario_input">
+                    <input type="submit" value="Salvar" class="salvar">
+                </form>
             </div>
         </main>
-
     </div>
-    <script src="js/pesquisar.js"></script>
-    <script src="js/menu--lateral.js"></script>
 </body>
-
+<script src="js/menu--lateral.js"></script>
 </html>

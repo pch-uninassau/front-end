@@ -25,36 +25,43 @@
 .perfil_imagem {
     width: 41px;
 }
-.informacoes__perfil{
+
+.informacoes__perfil {
     display: none;
 }
+
 @media screen and (min-width:786px) {
     .logo {
         width: 50px;
     }
 
-    .perfil_imagem{
+    .perfil_imagem {
         width: 64px;
     }
-    .perfil{
+
+    .perfil {
         display: flex;
         align-items: center;
         color: var(--branco--normal);
         column-gap: 5px;
         padding-right: 5px;
     }
-    .informacoes__perfil{
+
+    .informacoes__perfil {
         display: block;
         order: -1;
         color: var(--azul-claro);
     }
-    .nome__perfil{
+
+    .nome__perfil {
         font-size: 1.5rem;
     }
+
     .menu {
         width: 64px;
     }
-    .mais__informacoes__perfil{
+
+    .mais__informacoes__perfil {
         font-size: 0.9rem;
     }
 }

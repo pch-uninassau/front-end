@@ -44,7 +44,7 @@ main {
     justify-content: center;
 }
 
-.salvar{
+.salvar {
     align-self: center;
     background-color: var(--azul-escuro2);
     transition: 0.5s;
@@ -65,15 +65,18 @@ main {
     .imagemPerfil {
         width: 200px;
     }
-    .formulario input{
-        height:60px ;
+
+    .formulario input {
+        height: 60px;
         font-size: 1.5rem;
     }
-    .formulario label{
+
+    .formulario label {
         font-size: 1.5rem;
     }
+
     .salvar {
         padding: 1rem;
-     font-size: 2rem;
+        font-size: 2rem;
     }
 }

@@ -1,34 +1,60 @@
-:root{
---cinza--escuro:#343839;
---azul-escuro:#015F6B;
---azul-escuro2:#008B9E;
---azul-claro:#00B4CB;
---azul-claro2:#00E0FC;
---branco--normal:#FFFFFF;
+:root {
+    --cinza--escuro: #343839;
+    --azul-escuro: #015F6B;
+    --azul-escuro2: #008B9E;
+    --azul-claro: #00B4CB;
+    --azul-claro2: #00E0FC;
+    --branco--normal: #FFFFFF;
 }
-.cabecalho{
+
+.cabecalho {
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.menu{
-    width:39px;
+
+.menu {
+    width: 39px;
 }
-.logo{
+
+.logo {
     width: 30px;
 }
-.perfil{
-    width:41px;
+
+.perfil_imagem {
+    width: 41px;
+}
+.informacoes__perfil{
+    display: none;
 }
 @media screen and (min-width:786px) {
-    .logo{
+    .logo {
         width: 50px;
     }
-    .perfil{
+
+    .perfil_imagem{
         width: 64px;
     }
-    .menu{
+    .perfil{
+        display: flex;
+        align-items: center;
+        color: var(--branco--normal);
+        column-gap: 5px;
+        padding-right: 5px;
+    }
+    .informacoes__perfil{
+        display: block;
+        order: -1;
+        color: var(--azul-claro);
+    }
+    .nome__perfil{
+        font-size: 1.5rem;
+    }
+    .menu {
         width: 64px;
+    }
+    .mais__informacoes__perfil{
+        font-size: 0.9rem;
     }
 }

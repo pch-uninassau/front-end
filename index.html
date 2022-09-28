@@ -20,6 +20,7 @@
 
 <body>
     <div class="container">
+        
         <header class="cabecalho">
             <div class="menu ">
                 <img src="assets/menuIcon.svg" alt="icone do menu " class="menu item__cabecalho">
@@ -28,61 +29,77 @@
                 <a href="index.html"><img src="assets/LogoIcon.svg" alt="logo do menu" class="logo item__cabecalho"></a>
             </div>
             <div class="perfil">
-                <img src="assets/Perfil.svg" alt="perfil do menu" class="perfil item__cabecalho">
+                <img src="assets/Perfil.svg" alt="perfil do menu" class="perfil_imagem item__cabecalho">
+                <a href="#" class="informacoes__perfil">
+                    <p class="nome__perfil">Ariana Grande</p>
+                    <p class="mais__informacoes__perfil">Mais informaçoes</p>
+                </a>
             </div>
         </header>
+
         <div class="menu-lateral-mobile menu--escondido">
             <div class="logo__excluir">
                 <img src="assets/LogoIcon.svg" alt="" class="logo__menu">
                 <p class="excluir">X</p>
             </div>
-            <div class="opcao">
-                <img src="assets/iconHome.svg" alt="icone home do menu lateral" class="icon__opcao">
-                <h2 class="titulo__opcao">Home</h2>
+            <div class="opcoes">
+                <a href="" class="opcao">
+                    <img src="assets/iconHome.svg" alt="icone home do menu lateral" class="icon__opcao">
+                    <h2 class="titulo__opcao">Home</h2>
+                </a>
             </div>
-            <div class="opcao">
-                <img src="assets/iconPerfil.svg" alt="icone Perfil do menu lateral" class="icon__opcao">
-                <h2 class="titulo__opcao">Meu perfil</h2>
+            <div class="opcoes">
+                <a href="" class="opcao">
+                    <img src="assets/iconPerfil.svg" alt="icone Perfil do menu lateral" class="icon__opcao">
+                    <h2 class="titulo__opcao">Meu perfil</h2>
+                </a>
             </div>
-            <div class="opcao">
-                <img src="assets/iconRanking.svg" alt="icone Ranking do menu lateral" class="icon__opcao">
-                <h2 class="titulo__opcao">Ranking</h2>
+            <div class="opcoes">
+                <a href="#" class="opcao">
+                    <img src="assets/iconRanking.svg" alt="icone Ranking do menu lateral" class="icon__opcao">
+                    <h2 class="titulo__opcao">Ranking</h2>
+                </a>
             </div>
-
         </div>
+
         <div class="pesquisar">
             <img src="assets/pesquisarIcon.svg" alt="Icone de pesquisa " class="pesquisar__lupa">
             <input type="text" name="filtro" id="filtrar-tabela" class="pesquisar__campo"
                 placeholder="Procure uma noticia">
         </div>
+
         <main>
             <div class="noticias">
                 <div class="primeira__noticia">
-                    <a href="#" class="primeira__noticia">
+                    <a href="noticia.html" class="primeira__noticia">
                         <img src="assets/fotoNoticia.svg" alt="Foto da noticia 1" class="foto__noticia">
                         <p class="titulo__noticia">Título 1</p>
                     </a>
                 </div>
+                
                 <div class="segunda__noticia">
-                    <a href="#" class="segunda__noticia">
+                    <a href="noticia.html" class="segunda__noticia">
                         <img src="assets/fotoNoticia.svg" alt="Foto da noticia 2" class="foto__noticia">
                         <p class="titulo__noticia">Título 2</p>
                     </a>
                 </div>
+
                 <div class="terceira__noticia">
-                    <a href="#" class="terceira__noticia">
+                    <a href="noticia.html" class="terceira__noticia">
                         <img src="assets/fotoNoticia.svg" alt="Foto da noticia 3" class="foto__noticia">
                         <p class="titulo__noticia">Título 3</p>
                     </a>
                 </div>
+
                 <div class="quarta__noticia">
-                    <a href="#" class="quarta__noticia">
+                    <a href="noticia.html" class="quarta__noticia">
                         <img src="assets/fotoNoticia.svg" alt="Foto da noticia 3" class="foto__noticia">
                         <p class="titulo__noticia">Título 4</p>
                     </a>
                 </div>
             </div>
         </main>
+
     </div>
     <script src="js/pesquisar.js"></script>
     <script src="js/menu--lateral.js"></script>

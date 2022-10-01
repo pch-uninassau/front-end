@@ -21,6 +21,10 @@
 | **26/09/2022** | **organizando código e adicionando disable no valor do hidrometro** | **Gustavo** |
 
 
+##🎂 • Sites 
+
+https://www.anychart.com/
+
 ## 🛑 • Avisos
 
 ***• Todos que não pertencem ao front-end evitem editar este documento para fins de organização!***

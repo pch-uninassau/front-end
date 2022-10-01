@@ -25,6 +25,8 @@
 
 https://www.anychart.com/
 
+https://www.apachefriends.org/download.html
+
 ## 🛑 • Avisos
 
 ***• Todos que não pertencem ao front-end evitem editar este documento para fins de organização!***

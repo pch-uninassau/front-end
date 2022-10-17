@@ -20,6 +20,8 @@
 | **26/09/2022** | **adicionando a página perfil, suas informaçoes e a colocando nas outras abas, trocando a visualizacao do perfil na aba principal da versão desktop** | **Gustavo** |
 | **26/09/2022** | **organizando código e adicionando disable no valor do hidrometro** | **Gustavo** |
 | **26/09/2022** | **adicionando jquery e adicionando max width para classe container** | **Gustavo** |
+| **16/10/2022** | **adicionando container e body com tailwind** | **Gustavo** |
+| **16/10/2022** | **adicionando menu-lateral com o tailwind ** | **Gustavo** |
 
 ## 🎂 • Sites 
 

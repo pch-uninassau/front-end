@@ -10,7 +10,7 @@ main {
     align-items: center;
     row-gap: 22px;
     color: var(--branco--normal);
-
+    justify-content: center;
 }
 
 .foto__noticia {
@@ -39,7 +39,7 @@ main {
 .primeira__noticia:hover,
 .segunda__noticia:hover,
 .terceira__noticia:hover,
-.quarta__noticia:hover {
+.quarta__noticia:hover{
     color: var(--azul-claro);
     transition: 0.5s;
 }

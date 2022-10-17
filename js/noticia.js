@@ -27,5 +27,3 @@ var titulo = document.querySelector(".titulo__noticia").textContent = noticia.ti
 
 var descricao = document.querySelector(".paragrafo__noticia").textContent = noticia.descricao;
  
-
-console.log(noticia);

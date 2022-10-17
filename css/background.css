@@ -7,9 +7,12 @@
 .container{
 max-width: 1336px;
 display: flex;
-flex-direction: column;
 justify-content: center;
+flex-direction: column;
 }
 body {
     background-color: var(--azul-escuro);
+    display: flex;
+    justify-content: center;
+   
 }

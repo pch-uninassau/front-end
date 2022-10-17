@@ -13,58 +13,55 @@
     <link rel="shortcut icon" href="/assets/LogoIcon.svg" type="image/x-icon">
     <title>Noticia</title>
 </head>
-    <div class="container">
-        <header class="cabecalho">
-            <div class="menu ">
-                <img src="/assets/menuIcon.svg" alt="icone do menu " class="menu item__cabecalho">
+        <div class="container">
+            <header class="cabecalho">
+                <div class="menu ">
+                    <img src="/assets/menuIcon.svg" alt="icone do menu " class="menu item__cabecalho">
+                </div>
+                <div class="logo">
+                    <a href="/index.html"><img src="/assets/LogoIcon.svg" alt="logo do menu" class="logo item__cabecalho"></a>
+                </div>
+                <div class="perfil">
+                    <img src="/assets/Perfil.svg" alt="perfil do menu" class="perfil item__cabecalho">
+                </div>
+            </header>
+            <div class="menu-lateral-mobile menu--escondido">
+                <div class="logo__excluir">
+                    <img src="/assets/LogoIcon.svg" alt="" class="logo__menu">
+                    <p class="excluir">X</p>
+                </div>
+                <div class="opcoes">
+                    <a href="index.html" class="opcao">
+                        <img src="/assets/iconHome.svg" alt="icone home do menu lateral" class="icon__opcao">
+                        <h2 class="titulo__opcao">Home</h2>
+                    </a>
+                </div>
+                <div class="opcoes">
+                    <a href="../meuPerfil.html" class="opcao">
+                        <img src="/assets/iconPerfil.svg" alt="icone Perfil do menu lateral" class="icon__opcao">
+                        <h2 class="titulo__opcao">Meu perfil</h2>
+                    </a>
+                </div>
+                <div class="opcoes">
+                    <a href="../meuPerfil.html" class="opcao">
+                        <img src="/assets/iconRanking.svg" alt="icone Ranking do menu lateral" class="icon__opcao">
+                        <h2 class="titulo__opcao">Ranking</h2>
+                    </a>
+                </div>
             </div>
-
-            <div class="logo">
-                <a href="/index.html"><img src="/assets/LogoIcon.svg" alt="logo do menu" class="logo item__cabecalho"></a>
-            </div>
-
-            <div class="perfil">
-                <img src="/assets/Perfil.svg" alt="perfil do menu" class="perfil item__cabecalho">
-            </div>
-
-        </header>
-        <div class="menu-lateral-mobile menu--escondido">
-            <div class="logo__excluir">
-                <img src="/assets/LogoIcon.svg" alt="" class="logo__menu">
-                <p class="excluir">X</p>
-            </div>
-            <div class="opcoes">
-                <a href="index.html" class="opcao">
-                    <img src="/assets/iconHome.svg" alt="icone home do menu lateral" class="icon__opcao">
-                    <h2 class="titulo__opcao">Home</h2>
-                </a>
-            </div>
-            <div class="opcoes">
-                <a href="meuPerfil.html/" class="opcao">
-                    <img src="/assets/iconPerfil.svg" alt="icone Perfil do menu lateral" class="icon__opcao">
-                    <h2 class="titulo__opcao">Meu perfil</h2>
-                </a>
-            </div>
-            <div class="opcoes">
-                <a href="meuPerfil.html" class="opcao">
-                    <img src="/assets/iconRanking.svg" alt="icone Ranking do menu lateral" class="icon__opcao">
-                    <h2 class="titulo__opcao">Ranking</h2>
-                </a>
-            </div>
+            <main class="noticia">
+                <img src="/assets/fotoNoticia.svg" alt="Imagem da noticia" class="NoticiaImagem"
+                    style="border-radius: 30px;">
+                <h2 class="titulo__noticia">Título da noticia</h2>
+                <p class="paragrafo__noticia">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, maxime
+                    quibusdam odio cum, mollitia ipsa sit dolor laudantium sapiente tempore possimus velit modi voluptatum
+                    reprehenderit tempora! Distinctio iure alias error?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, dolorum at temporibus autem explicabo
+                    repudiandae culpa sit ut corporis, officia quam doloribus esse aliquam tenetur quae, ab vel earum quod?
+                </p>
+            </main>
         </div>
-        <main class="noticia">
-            <img src="/assets/fotoNoticia.svg" alt="Imagem da noticia" class="NoticiaImagem"
-                style="border-radius: 30px;">
-            <h2 class="titulo__noticia">Título da noticia</h2>
-            <p class="paragrafo__noticia">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, maxime
-                quibusdam odio cum, mollitia ipsa sit dolor laudantium sapiente tempore possimus velit modi voluptatum
-                reprehenderit tempora! Distinctio iure alias error?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, dolorum at temporibus autem explicabo
-                repudiandae culpa sit ut corporis, officia quam doloribus esse aliquam tenetur quae, ab vel earum quod?
-            </p>
-        </main>
-    </div>
-    <script src="js/menu--lateral.js"></script>
+    <script src="/js/menu--lateral.js"></script>
 </body>
 
 </html>

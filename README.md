@@ -19,7 +19,7 @@
 | **26/09/2022** | **adicionando hover e melhorando a usabilidade pensando no usuario, e adicionando informaçoes no perfil do usuario desktop** | **Gustavo** |
 | **26/09/2022** | **adicionando a página perfil, suas informaçoes e a colocando nas outras abas, trocando a visualizacao do perfil na aba principal da versão desktop** | **Gustavo** |
 | **26/09/2022** | **organizando código e adicionando disable no valor do hidrometro** | **Gustavo** |
-
+| **26/09/2022** | **adicionando jquery e adicionando max width para classe container** | **Gustavo** |
 
 ## 🎂 • Sites 
 

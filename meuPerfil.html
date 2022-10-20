@@ -6,77 +6,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/LogoIcon.svg" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/menu-lateral-mobile.css">
     <link rel="stylesheet" href="css/informacoes.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend:
+                {
+                    colors: {
+                        azul: {
+                            cinza: '#343839',
+                            escuro: '#015F6B',
+                            escuro2: '#008B9E',
+                            claro: '#00B4CB',
+                            claro2: '#00E0FC',
+                            branco: '#FFFFFF',
+                        }
+                    },
+                    fontFamily: {
+                        kanit: ['Kanit', 'sans-serif']
+                    }
+                }
+            }
+
+        }
+
+    </script>
     <title>Informações do perfil</title>
+
 </head>
 
 <body>
-    <div class="container">
-        <header class="cabecalho">
-            <div class="menu ">
-                <img src="assets/menuIcon.svg" alt="icone do menu " class="menu item__cabecalho">
-            </div>
-            <div class="logo">
-                <a href="index.html"><img src="assets/LogoIcon.svg" alt="logo do menu" class="logo item__cabecalho"></a>
-            </div>
-            <div class="perfil">
-                <img src="assets/Perfil.svg" alt="perfil do menu" class="perfil_imagem item__cabecalho">
-                <a href="meuPerfil.html" class="informacoes__perfil">
-                    <p class="nome__perfil">Ariana Grande</p>
-                    <p class="mais__informacoes__perfil">Mais informaçoes</p>
-                </a>
-            </div>
-        </header>
 
-        <div class="menu-lateral-mobile menu--escondido">
-            <div class="logo__excluir">
-                <img src="assets/LogoIcon.svg" alt="" class="logo__menu">
-                <p class="excluir">X</p>
+    <body class="bg-azul-escuro flex justify-center font-kanit">
+        <div class="container flex justify-center flex-col">
+            <header class="flex justify-between items-center mt-1">
+                <div class="w-1/3">
+                    <img src="assets/menuIcon.svg" alt="icone do menu " class="w-8 menu md:w-14">
+                </div>
+                <div class="w-1/3 flex justify-center items-center">
+                    <a href=" index.html"><img src="assets/LogoIcon.svg" alt="logo do menu"
+                            class=" w-7 md:w-10 item__cabecalho"></a>
+                </div>
+                <div class="flex items-center text-azul-claro gap-x-1 pr-0.5 w-1/3 justify-end">
+                    <img src="assets/Perfil.svg" alt="perfil do menu" class=" w-10 item__cabecalho">
+                    <a href="meuPerfil.html" class="hidden md:block md:w-13">
+                        <p class="nome__perfil text-2xl">Ariana Grande</p>
+                        <p class="text-sm">Mais informaçoes</p>
+                    </a>
+                </div>
+            </header>
+            <div
+                class="menu-lateral-mobile bg-azul-claro container flex flex-col items-center absolute menu--escondido">
+                <div class="flex container justify-between items-center text-cinza">
+                    <img src="assets/LogoIcon.svg" alt="" class="w-5 md:w-7">
+                    <p
+                        class="excluir mr-1 text-base text-cinza hover:cursor-pointer hover:text-azul-claro2 duration-300 hover:duration-300 md:text-2xl">
+                        X</p>
+                </div>
+                <div class=" ">
+                    <a href="index.html" class="text-sm flex w-36">
+                        <img src="assets/iconHome.svg" alt="icone home do menu lateral" class="w-5 mr-1 md:w-8">
+                        <h2 class="hover:text-azul-claro2 duration-300 hover:duration-300 text-cinza md:text-2xl">Home
+                        </h2>
+                    </a>
+                </div>
+                <div class="">
+                    <a href="meuPerfil.html" class="text-sm flex w-36">
+                        <img src="assets/iconPerfil.svg" alt="icone Perfil do menu lateral" class="w-5 mr-1 md:w-8">
+                        <h2 class="hover:text-azul-claro2 duration-300 hover:duration-300 md:text-2xl">Meu perfil</h2>
+                    </a>
+                </div>
+                <div class="">
+                    <a href="#" class="text-sm flex w-36">
+                        <img src="assets/iconRanking.svg" alt="icone Ranking do menu lateral" class="w-5 mr-1 md:w-8">
+                        <h2 class="hover:text-azul-claro2 duration-300 hover:duration-300 md:text-2xl">Ranking</h2>
+                    </a>
+                </div>
             </div>
-            <div class="opcoes">
-                <a href="index.html" class="opcao">
-                    <img src="assets/iconHome.svg" alt="icone home do menu lateral" class="icon__opcao">
-                    <h2 class="titulo__opcao">Home</h2>
-                </a>
-            </div>
-            <div class="opcoes">
-                <a href="meuPerfil.html" class="opcao">
-                    <img src="assets/iconPerfil.svg" alt="icone Perfil do menu lateral" class="icon__opcao">
-                    <h2 class="titulo__opcao">Meu perfil</h2>
-                </a>
-            </div>
-            <div class="opcoes">
-                <a href="#" class="opcao">
-                    <img src="assets/iconRanking.svg" alt="icone Ranking do menu lateral" class="icon__opcao">
-                    <h2 class="titulo__opcao">Ranking</h2>
-                </a>
-            </div>
+            <main class="informacoes flex items-center justify-center mt-24">
+                <div class="foto__formulario flex items-center justify-center gap-x-3">
+                    <img src="assets/Perfil.svg" alt="Imagem do perfil" class="imagemPerfil self-start w-22">
+                    <form action="" class="formulario flex flex-col gap-y-2">
+                        <label for="Nome" class="font-bold text-white">Nome completo</label>
+                        <input type="text" name="Nome" id="Nome" value="Ariana Grande" class="formulario_input">
+                        <label for="Endereco" class="font-bold text-white">Endereço</label>
+                        <input type="text" name="Endereco" id="endereco" value="Rua das palmeiras 56"
+                            class="formulario_input">
+                        <label for="Cep" class="font-bold text-white">Cep</label>
+                        <input type="text" name="Cep" id="Cep" value="12345-678" class="formulario_input">
+                        <label for="Idade" class="font-bold text-white">Idade do responsável</label>
+                        <input type="text" name="Idade" id="Idade" value="20" class="formulario_input">
+                        <label for="Hidrometro" class="font-bold text-white">Valor do hidrômetro</label>
+                        <input type="text" name="Hidrometro" id="Hidrometro" value="55623" class="formulario_input"
+                            readonly>
+                        <input type="submit" value="Salvar"
+                            class=" self-center bg-azul-escuro2 duration-500 p-2 rounded-2xl font-bold text-base border-transparent hover:bg-azul-claro2 hover:duration-500">
+                    </form>
+                </div>
+            </main>
         </div>
-        <main class="informacoes">
-            <div class="foto__formulario">
-                <img src="assets/Perfil.svg" alt="Imagem do perfil" class="imagemPerfil">
-                <form action="" class="formulario">
-                    <label for="Nome">Nome completo</label>
-                    <input type="text" name="Nome" id="Nome" value="Ariana Grande" class="formulario_input">
-                    <label for="Endereco">Endereço</label>
-                    <input type="text" name="Endereco" id="endereco" value="Rua das palmeiras 56"
-                        class="formulario_input">
-                    <label for="Cep">Cep</label>
-                    <input type="text" name="Cep" id="Cep" value="12345-678" class="formulario_input">
-                    <label for="Idade">Idade do responsável</label>
-                    <input type="text" name="Idade" id="Idade" value="20" class="formulario_input">
-                    <label for="Hidrometro">Valor do hidrômetro</label>
-                    <input type="text" name="Hidrometro" id="Hidrometro" value="55623" class="formulario_input"
-                        readonly>
-                    <input type="submit" value="Salvar" class="salvar">
-                </form>
-            </div>
-        </main>
-    </div>
+
+    </body>
 </body>
 <script src="js/menu--lateral.js"></script>
 
 </html>
+<!---->

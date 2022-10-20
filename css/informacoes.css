@@ -1,28 +1,6 @@
-.foto__formulario {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 10px;
-}
-
-.imagemPerfil {
-    align-self: flex-start;
-    width: 92px;
-}
-
-.formulario {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-}
-
-.formulario label {
-    font-weight: bold;
-    color: var(--branco--normal);
-}
 
 .formulario_input {
-    background-color: var(--azul-escuro2);
+    background-color: #008b9e;
     border-radius: 10px;
     height: 30px;
     padding-left: 10px;
@@ -34,30 +12,7 @@
 }
 
 .formulario input:focus {
-    border-color: var(--branco--normal);
-}
-
-main {
-    height: calc(100vh - 45px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.salvar {
-    align-self: center;
-    background-color: var(--azul-escuro2);
-    transition: 0.5s;
-    padding: 0.5rem;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 1rem;
-    border-color: transparent;
-}
-
-.salvar:hover {
-    background-color: var(--azul-claro2);
-    transition: 0.5s;
+    border-color: #FFFFFF;
 }
 
 @media screen and (min-width:786px) {

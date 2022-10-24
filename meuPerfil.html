@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/LogoIcon.svg" type="image/x-icon">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/background.css">
-    <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/menu-lateral-mobile.css">
     <link rel="stylesheet" href="css/informacoes.css">
+    <link rel="stylesheet" href="css/noticiais.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -45,17 +44,17 @@
         <div class="container flex justify-center flex-col">
             <header class="flex justify-between items-center mt-1">
                 <div class="w-1/3">
-                    <img src="assets/menuIcon.svg" alt="icone do menu " class="w-8 menu md:w-14">
+                    <img src="assets/menuIcon.svg" alt="icone do menu " class="w-8  menu md:w-14">
                 </div>
                 <div class="w-1/3 flex justify-center items-center">
                     <a href=" index.html"><img src="assets/LogoIcon.svg" alt="logo do menu"
                             class=" w-7 md:w-10 item__cabecalho"></a>
                 </div>
-                <div class="flex items-center text-azul-claro gap-x-1 pr-0.5 w-1/3 justify-end">
-                    <img src="assets/Perfil.svg" alt="perfil do menu" class=" w-10 item__cabecalho">
-                    <a href="meuPerfil.html" class="hidden md:block md:w-13">
-                        <p class="nome__perfil text-2xl">Ariana Grande</p>
-                        <p class="text-sm">Mais informaçoes</p>
+                <div class="items-center text-azul-claro gap-x-1 pr-0.5 w-1/3 justify-end ">
+                    <a href="meuPerfil.html" class="perfil block md:w-13 grid justify-end">
+                        <p class="nome__perfil text-2xl hidden md:block">Ariana Grande</p>
+                        <p class="text-sm infos__perfil hidden md:block">Mais informaçoes</p>
+                        <img src="/assets/Perfil.svg" alt="perfil do menu" class="w-11 md:w-16 img__perfil ">
                     </a>
                 </div>
             </header>
@@ -111,8 +110,8 @@
         </div>
 
     </body>
+    <script src="/js/menu--lateral.js"></script>
 </body>
-<script src="js/menu--lateral.js"></script>
+
 
 </html>
-<!---->

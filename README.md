@@ -29,7 +29,10 @@
 | **03/11/2022** | **adicionando pagina de login e seus componentes ** | **Gustavo** |
 | **04/10/2022** | **adicionando as noticias completas e ajustando o index principal ** | **Gustavo** |
 | **04/10/2022** | **atualizando a tela da noticia ** | **Gustavo** |
+| **04/10/2022** | **atualizando bug da logo indo para outra página, sem ser a principal ** | **Gustavo** |
 | **04/10/2022** | **adicionando hover no header com animações ** | **Gustavo** |
+| **04/10/2022** | **trocando as fotos da noticia ** | **Gustavo** |
+| **04/10/2022** | **colocando padding-bottom na noticia ** | **Gustavo** |
 
 ## 🎂 • Sites 
 

@@ -21,7 +21,15 @@
 | **26/09/2022** | **organizando código e adicionando disable no valor do hidrometro** | **Gustavo** |
 | **26/09/2022** | **adicionando jquery e adicionando max width para classe container** | **Gustavo** |
 | **16/10/2022** | **adicionando container e body com tailwind** | **Gustavo** |
-| **16/10/2022** | **adicionando menu-lateral com o tailwind ** | **Gustavo** |
+| **16/10/2022** | **adicionando cabecalho com o tailwind ** | **Gustavo** |
+| **17/10/2022** | **colocando barra de pesquisa para o tailwind-css ** | **Gustavo** |
+| **17/10/2022** | **adicionando noticias para o tailwind-css ** | **Gustavo** |
+| **20/10/2022** | **trocando background, cores das fontes da noticia, colocando para buscar ** | **Gustavo** |
+| **24/10/2022** | **adicionando grid na área do perfil do header ** | **Gustavo** |
+| **03/11/2022** | **adicionando pagina de login e seus componentes ** | **Gustavo** |
+| **04/10/2022** | **adicionando as noticias completas e ajustando o index principal ** | **Gustavo** |
+| **04/10/2022** | **atualizando a tela da noticia ** | **Gustavo** |
+| **04/10/2022** | **adicionando hover no header com animações ** | **Gustavo** |
 
 ## 🎂 • Sites 
 

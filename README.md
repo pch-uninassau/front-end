@@ -33,6 +33,7 @@
 | **04/10/2022** | **adicionando hover no header com animações ** | **Gustavo** |
 | **04/10/2022** | **trocando as fotos da noticia ** | **Gustavo** |
 | **04/10/2022** | **colocando padding-bottom na noticia ** | **Gustavo** |
+| **04/10/2022** | **Ajustando tamanho das noticias na tela inicial ** | **Gustavo** |
 
 ## 🎂 • Sites 
 

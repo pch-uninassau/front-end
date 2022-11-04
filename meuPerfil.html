@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/noticiais.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
+         tailwind.config = {
             theme: {
                 extend:
                 {
@@ -27,7 +27,20 @@
                     },
                     fontFamily: {
                         kanit: ['Kanit', 'sans-serif']
-                    }
+                    },
+                    keyframes:{
+                        gota_kf: {
+                            '0% , 100%': {
+                                transform: 'rotate(-10deg)'
+                            },
+                            '50%': {
+                                transform: 'rotate(10deg)'
+                            }
+                        }
+                    },
+                    animation: {
+                        gota: 'gota_kf 0.31s ease-in-out infinite'
+                    },
                 }
             }
 
@@ -46,13 +59,13 @@
                 <div class="w-1/3">
                     <img src="assets/menuIcon.svg" alt="icone do menu " class="w-8  menu md:w-14">
                 </div>
-                <div class="w-1/3 flex justify-center items-center">
-                    <a href=" index.html"><img src="assets/LogoIcon.svg" alt="logo do menu"
-                            class=" w-7 md:w-10 item__cabecalho"></a>
+                <div class="w-1/3 flex justify-center items-center group">
+                    <a href=" index.html"><img src="assets/LogoIcon.svg" alt="logo do menu" class=" w-7 md:w-10 item__cabecalho logo__menu group-hover:animate-gota"></a>
+                    <img src="assets/gotas_hover.svg" alt="hover das gotas" class="hover__gotas group-hover:animate-ping opacity-0 group-hover:opacity-100 absolute top-0 w-12">
                 </div>
                 <div class="items-center text-azul-claro gap-x-1 pr-0.5 w-1/3 justify-end ">
-                    <a href="meuPerfil.html" class="perfil block md:w-13 grid justify-end">
-                        <p class="nome__perfil text-2xl hidden md:block">Ariana Grande</p>
+                    <a href="/login/index.html" class="perfil block md:w-13 grid justify-end">
+                        <p class="nome__perfil text-2xl hidden md:block">login/cadastro</p>
                         <p class="text-sm infos__perfil hidden md:block">Mais informaçoes</p>
                         <img src="/assets/Perfil.svg" alt="perfil do menu" class="w-11 md:w-16 img__perfil ">
                     </a>
